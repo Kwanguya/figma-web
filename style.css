@@ -1,0 +1,157 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #808080;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    background-color:#E3CEC6;
+    border-radius: 5px 2px 5px 2px;
+}
+ul li a{
+    text-decoration: none;
+}
+.banner{
+    text-align: center;
+
+
+}
+.text{
+    position: absolute;
+    color: #FFFF;
+    top: 70px;
+    left: 60px;
+}
+.title {
+    text-align: center;
+    padding: 10px 5px;
+    background-color:#E3CEC6;
+    margin: 20px 70px;
+    border-radius: 10px 5px 10px 5px;
+}
+.rows{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.text-col{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.img-col{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.install:hover{
+    background-color: #E3CEC6;
+}
+.aboutus {
+    text-align: center
+}
+.feedback {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+}
+.text-love {
+    text-align: center;
+    font-size: 52px;
+}
+.text1 {
+    color: #EB606B;
+}
+.text2 {
+    color: #F6CBD5;
+}
+.text3 {
+    color: #FFBAC6;
+}
+.toucan {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #EB606B;
+}
+.text-ourcomunity {
+    border-top: black, 1px;
+    text-align: center;
+    font-size: 45px;
+}
+.fb {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: 30px;
+}
+.click {
+    bottom: auto;
+}
+footer{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #808080;
+}
+.M3 {
+    display: flex;
+    position: absolute;
+    width: 386px;
+    height: 65px;
+    left: 355px;
+    top: 7874px;
+}
+
+.M1 {
+    display: flexbox;
+}
+
+.col1{
+    margin-top: 20px;
+}
+.col2{
+    margin-top: 100px;
+}
+.col3{
+    margin-top: 200px;
+}
+.btn{
+    margin-top: 50px;
+    color: #FFFF;
+    background-color: #FF758F;
+    padding: 5px 20px;
+    margin-left: 25px;
+    border: solid 1px #FFFF;
+    font-size: 18px;
+}
+.trang6{
+    text-align: center;
+}
+.page4{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.M{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.row1 p{
+    color: #FFFF;
+}
+.title_ft{
+font-size: 24px;
+}
